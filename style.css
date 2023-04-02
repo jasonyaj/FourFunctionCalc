@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80rem; /*1280px*/
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem; /*20px*/
+}
+
+button {
+    width: 24%;
+    font-size: xx-large;
+    margin-top: .25rem;
+    padding: 1rem 0;
+}
+
+#calculator {
+    background-color: black;
+    padding: .5rem;
+    min-width: 25%;
+}
+
+#display {
+    background-color: rgb(6, 156, 19);
+    margin-bottom: .5rem;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Cute Font', cursive;
+}
+
+#equals {
+    width: 100%;
+    margin-top: .25rem;
+}
